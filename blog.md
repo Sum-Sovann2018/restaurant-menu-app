@@ -103,7 +103,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Cosmic Restaurant Menu App' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon-32x32.png' },
+      { rel: 'icon', type: 'image/x-icon', href: '/Logo.png' },
       { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/icon?family=Material+Icons' },
       { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css?family=Dancing+Script:700' },
       { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css?family=Crimson+Text:400,600,700,400italic' }
@@ -151,7 +151,6 @@ default.js in the layouts directory is the starting point in all the app. Here w
       <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <a class="navbar-item" href="/">
-            <img src="https://cosmicjs.com/images/logo.svg" alt="Cosmic Restaurant App" width="112" height="28">
             <h1>Restaurant Menu</h1>
           </a>
         </div>

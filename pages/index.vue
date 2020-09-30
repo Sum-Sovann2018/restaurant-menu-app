@@ -18,7 +18,8 @@ export default {
 
 <style lang="css" scoped>
   .content-section {
-    background-image: url('/static/background.jpg');
+    background-image: url('/static/backg.png');
+    background-size: cover;
     min-height: calc(100vh - 52px);
     min-height: calc(100vh - 3.25rem);
   }
